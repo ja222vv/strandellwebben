@@ -2,7 +2,30 @@
     font-family: Chaparral Pro;
     src: url('ChaparralPro-Regular.otf');
 }
-
+a {
+    text-shadow: 0.5px 0.5px 0.5px #636361;
+}
+.menulinks {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+.stylelinks {
+    text-decoration:none;
+    display:block; 
+    color: #0A072A;
+}
+#menu p {
+    font-variant:small-caps;
+    font-size: 20px;
+}
+.active a {
+    color:#95682D;
+}
+a:hover {
+    color: red;
+}
+/* Bilder för header */
 #logotype {
     margin-top: 100px;
     margin-left: 5px;
@@ -13,7 +36,6 @@
     width: 480px;
     float:right;
 }
-
 /* Layout börjar */
 #pagecontainer {
     margin-left:auto;
@@ -21,7 +43,6 @@
     margin-top: 25px;
     width: 800px;
     background: #E2DEAD;
-    
 }
 #header {
     background-image: url("pics/Border.png");
@@ -35,9 +56,13 @@
     float:left;
 }
 #menu {
+    font-family: Chaparral Pro;
+    font-size: 18px;
+    color: #0A072A;
     width: 200px;
     background: #AFAD86;
     float:left;
+    text-align:center;
 }
 #subcontent {
     width: 600px;
