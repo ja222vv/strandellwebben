@@ -2,6 +2,18 @@
     font-family: Chaparral Pro;
     src: url('ChaparralPro-Regular.otf');
 }
+
+#logotype {
+    margin-top: 100px;
+    margin-left: 5px;
+}
+#text_header {
+    margin-top: 110px;
+    margin-right: 120px;
+    width: 480px;
+    float:right;
+}
+
 /* Layout börjar */
 #pagecontainer {
     margin-left:auto;
@@ -12,7 +24,9 @@
     
 }
 #header {
-    height: 200px;
+    background-image: url("pics/Border.png");
+    background-size:contain;
+    background-repeat:no-repeat;
 }
 #content {
     width: 800px;
