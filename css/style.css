@@ -2,6 +2,34 @@
     font-family: Chaparral Pro;
     src: url('ChaparralPro-Regular.otf');
 }
+fieldset {
+    font-family: "Chaparral Pro";
+    margin-bottom: 5px;
+    width: 375px;
+}
+legend {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+#contactform {
+    width: 400px;
+}
+#formbutton {
+    background:#1F202D;
+    width:80px;
+    height:30px;
+    float:right;
+    margin-top:5px;
+    border-radius: 3px;
+    border: 1px solid #1F202D;
+    color:white;
+    cursor:pointer;
+    text-shadow: 1px 1px 1px #585C5B;
+}
+#formbutton:hover {
+    background:#383A52;
+}
+/* Till meny - börjar */
 a {
     text-shadow: 0.5px 0.5px 0.5px #636361;
 }
@@ -17,7 +45,8 @@ a {
 }
 #menu p {
     font-variant:small-caps;
-    font-size: 20px;
+    font-size: 22px;
+    letter-spacing: 1px;
 }
 .active a {
     color:#95682D;
@@ -25,7 +54,8 @@ a {
 a:hover {
     color: red;
 }
-/* Bilder för header */
+/* Till meny - slutar */
+/* Bilder för header - börjar */
 #logotype {
     margin-top: 100px;
     margin-left: 5px;
@@ -36,6 +66,7 @@ a:hover {
     width: 480px;
     float:right;
 }
+/* Bilder för header - slutar */
 /* Layout börjar */
 #pagecontainer {
     margin-left:auto;
@@ -56,7 +87,7 @@ a:hover {
     float:left;
 }
 #menu {
-    font-family: Chaparral Pro;
+    font-family: "Chaparral Pro";
     font-size: 18px;
     color: #0A072A;
     width: 200px;
@@ -65,6 +96,7 @@ a:hover {
     text-align:center;
 }
 #subcontent {
+    font-family: "Chaparral Pro";
     width: 600px;
     background: #AFAD86;
     min-height:250px;
@@ -74,7 +106,7 @@ a:hover {
     margin-top: 5px;
     padding: 5px;
     height: 50px;
-    font-family: Chaparral Pro;
+    font-family: "Chaparral Pro";
     font-size: 14px;
     text-align: center;
     clear: both;
