@@ -24,15 +24,33 @@
                     </ul>
                 </div>
                 <div id="subcontent">
-                    <p>Fyll i formuläret för att komma i kontakt med oss</p> 
-                    <form id="contactform">
+                    <form id="contact_form">
                         <fieldset>
+                            <p>Fyll i formuläret för att komma i kontakt med oss.</p> 
                             <legend>Uppgifter</legend>
+                            <label for="headline">Rubrik: </label>
+                            <input type="text" placeholder="Fyll i en rubrik" id="headline" name="headline"/>
+                            </br>
+                            <label for="contact_content">Innehåll: </label>
+                            <textarea name="contact_content" placeholder="Fyll i en meddelandetext" rows="5" id="contact_content" cols="30"></textarea>
                         </fieldset>
                         <fieldset>
                             <legend>Om dig</legend>
+                            <p>Fyll i dina kontaktuppgift samt på vilket sätt du vill bli kontaktad, så hör vi av oss så snart vi kan.</p>
+                            <label for="firstname">Förnamn: </label>
+                            <input type="text" id="firstname" name="firstname"/>
+                            <label for="surname">Efternamn: </label>
+                            <input typ="text" id="surname" name="surname"/>
+                            <label for="mail">Kontakta mig via mail: </label>
+                            <input type="checkbox" id="mail" name="check[]" value="mail"/>
+                            <label for="phone">Kontakta mig via telefon: </label>
+                            <input type="checkbox" id="phone" name="check[]" value="phone"/>
+                            <label for="phone_number">Ditt telefonnummer: </label>
+                            <input type="text" id="phone_number" name="phone_number"/>
+                            <label for="email">Din emailadress: </label>
+                            <input type="text" id="email" name="email"/>
                         </fieldset>
-                        <input type="submit" id="formbutton" value="Skicka"/>
+                        <button id="formbutton">Skicka</button>
                     </form>
                 </div>
             </div>

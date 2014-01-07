@@ -5,21 +5,35 @@
 fieldset {
     font-family: "Chaparral Pro";
     margin-bottom: 5px;
-    width: 375px;
+    border-radius: 4px;
+    width: 475px;
 }
 legend {
     font-size: 14px;
     letter-spacing: 1px;
 }
-#contactform {
-    width: 400px;
+#contact_form {
+    width: 500px;
 }
+#contact_form label {
+    width:200px;
+    margin-right:5px;
+    display:block;
+    text-align:right;
+    float:left;
+}
+#contact_form input {
+    width: 260px;
+    margin-bottom: 2px;
+}
+
 #formbutton {
     background:#1F202D;
-    width:80px;
-    height:30px;
+    width: 80px;
+    height: 30px;
     float:right;
-    margin-top:5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 3px;
     border: 1px solid #1F202D;
     color:white;
@@ -28,6 +42,9 @@ legend {
 }
 #formbutton:hover {
     background:#383A52;
+}
+.hide {
+    display:none;
 }
 /* Till meny - börjar */
 a {
