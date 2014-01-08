@@ -17,6 +17,10 @@ legend {
     background:#1F202D;
     border-radius: 2px;
 }
+textarea
+{
+   resize: none;
+}
 #contact_form {
     width: 500px;
 }
