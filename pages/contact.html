@@ -38,17 +38,21 @@
                             <legend>Om dig</legend>
                             <p>Fyll i dina kontaktuppgift samt på vilket sätt du vill bli kontaktad, så hör vi av oss så snart vi kan.</p>
                             <label for="firstname">Förnamn: </label>
-                            <input type="text" id="firstname" name="firstname"/>
+                            <input type="text" placeholder="Fyll i ditt förnamn" id="firstname" name="firstname"/>
                             <label for="surname">Efternamn: </label>
-                            <input typ="text" id="surname" name="surname"/>
+                            <input typ="text" placeholder="Fyll i ditt efternamn" id="surname" name="surname"/>
                             <label for="mail">Kontakta mig via mail: </label>
                             <input type="checkbox" id="mail" name="check[]" value="mail"/>
                             <label for="phone">Kontakta mig via telefon: </label>
                             <input type="checkbox" id="phone" name="check[]" value="phone"/>
-                            <label for="phone_number">Ditt telefonnummer: </label>
-                            <input type="text" id="phone_number" name="phone_number"/>
-                            <label for="email">Din emailadress: </label>
-                            <input type="text" id="email" name="email"/>
+                            <div class="hide" id="mailbox">
+                                <label for="email">Din emailadress: </label>
+                                <input type="text" placeholder="Fyll i din mailadress" id="email" name="email"/>
+                            </div>
+                            <div class="hide" id="phonebox">
+                                <label for="phone_number">Ditt telefonnummer: </label>
+                                <input type="text" placeholder="Fyll i ditt telefonnummer" id="phone_number" name="phone_number"/>
+                            </div>
                         </fieldset>
                         <button id="formbutton">Skicka</button>
                     </form>
@@ -58,5 +62,6 @@
                 <p>Copyright © 2013 Jesper Strandell</p>
             </div>
         </div>
+        <script type="text/javascript" src="../scripts/script.js"></script>
     </body>
 </html>

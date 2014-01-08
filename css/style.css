@@ -7,10 +7,15 @@ fieldset {
     margin-bottom: 5px;
     border-radius: 4px;
     width: 475px;
+    border: 1px solid #1F202D;
 }
 legend {
+    margin-top: 5px;
     font-size: 14px;
     letter-spacing: 1px;
+    color: white;
+    background:#1F202D;
+    border-radius: 2px;
 }
 #contact_form {
     width: 500px;
