@@ -5,6 +5,33 @@
 a {
     text-decoration:none;
 }
+.imgleft {
+    float:left;
+    padding:5px;
+    margin-right:5px;
+    max-width:300px;
+    max-height:300px;
+    width:auto;
+    height:auto;
+    background:white;
+}
+.imgright {
+    float:right;
+    padding:5px;
+    margin-left:5px;
+    max-width:300px;
+    max-height:300px;
+    width:auto;
+    height:auto;
+    background:white;
+}
+#subcontent h2 {
+    float:left;
+}
+#about_content {
+    width:500px;
+}
+/* Blogg börjar */
 #blog_header {
     position:relative;
     margin-top: 20px;
@@ -24,15 +51,14 @@ a {
     margin-right: 3px;
     font-size: 14px;
     color:#701121;
+    text-shadow: 0.5px 0.5px 0.5px #636361;
 }
 .tags {
     font-size:14px;
     float:left;
     margin-top:35px;
-    clear:left;
 }
 #blog_header h2 {
-    font-family: "Chaparral Pro";
     margin-left:50px;
     margin-top:5px;
     float:left;
@@ -45,7 +71,7 @@ a {
 }
 #blog_content {
     font-size:14px;
-    width:400px;
+    width:500px;
     margin-top:5px;
     clear:both;
 }
@@ -71,12 +97,12 @@ a {
     display:block;
 }
 .line_style {
-    width: 400px;
-    float:left;
-    height:0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: #1F202D;
+    display:block;
+    margin:0;
+    width: 500px;
+    border-top: 1px solid #1F202D;
+    border-bottom: 1px solid #1F202D;
+    clear:both;
 }
 #blog_author {
     font-size: 14px;
@@ -84,6 +110,7 @@ a {
 #blog_author p span {
     font-style: italic;
 }
+/*Blogg slutar */
 /* Formulär börjar */
 fieldset {
     font-family: "Chaparral Pro";
