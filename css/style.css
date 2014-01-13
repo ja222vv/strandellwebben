@@ -6,13 +6,35 @@ a {
     text-decoration:none;
 }
 #blog_header {
+    position:relative;
     margin-top: 20px;
     width:500px;
     height:55px;
 }
+
+.meta {
+    position:absolute; left: 50px; top: 35px;
+    list-style-type:none;
+    overflow:hidden;
+    float:left;
+    margin:0;
+    padding:0;
+}
+.meta li {
+    float:left;
+    margin-right: 3px;
+    font-size: 14px;
+    color:#701121;
+}
+.tags {
+    font-size:14px;
+    float:left;
+    margin-top:35px;
+    clear:left;
+}
 #blog_header h2 {
     font-family: "Chaparral Pro";
-    margin-left:10px;
+    margin-left:50px;
     margin-top:5px;
     float:left;
 }
@@ -28,6 +50,7 @@ a {
     clear:both;
 }
 .blog_date {
+    position: absolute; left: 0; top: 0;
     background: #E5E5E2;
     width:45px;
     height:55px;
