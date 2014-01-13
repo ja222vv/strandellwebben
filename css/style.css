@@ -2,6 +2,52 @@
     font-family: Chaparral Pro;
     src: url('ChaparralPro-Regular.otf');
 }
+a {
+    text-decoration:none;
+}
+#blog_header {
+    margin-top: 20px;
+    width:500px;
+    height:55px;
+}
+#blog_header h2 {
+    font-family: "Chaparral Pro";
+    margin-left:10px;
+    margin-top:5px;
+    float:left;
+}
+#blog_header a {
+    color:black;
+}
+#blog_header a:hover {
+    color:red;
+}
+#blog_content {
+    width:500px;
+    margin-top:5px;
+    clear:both;
+}
+.blog_date {
+    background: #E5E5E2;
+    width:45px;
+    height:55px;
+    float:left;
+    font-family: "Helvetica";
+}
+.blog_date p{
+    font-size: 32px;
+    font-weight:bold;
+    line-height:20px;
+    margin-top:10px;
+    margin-left:5px;
+    float:left;
+}
+p span {
+    font-size:18px;
+    text-align:center;
+    display:block;
+}
+/* Formulär börjar */
 fieldset {
     font-family: "Chaparral Pro";
     margin-bottom: 5px;
@@ -52,6 +98,7 @@ textarea
 #formbutton:hover {
     background:#383A52;
 }
+/* Formulär slutar */
 .hide {
     display:none;
 }
