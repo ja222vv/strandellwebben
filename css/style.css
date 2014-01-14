@@ -2,6 +2,10 @@
     font-family: Chaparral Pro;
     src: url('ChaparralPro-Regular.otf');
 }
+/* Används för att sidan inte ska hoppa vid sidbyten om sidorna är olika långa. */
+html {
+	overflow-y: scroll; 
+}
 a {
     text-decoration:none;
 }
@@ -9,8 +13,8 @@ a {
     float:left;
     padding:5px;
     margin-right:5px;
-    max-width:300px;
-    max-height:300px;
+    max-width:250px;
+    max-height:250px;
     width:auto;
     height:auto;
 }
@@ -18,16 +22,17 @@ a {
     float:right;
     padding:5px;
     margin-left:5px;
-    max-width:300px;
-    max-height:300px;
+    max-width:250px;
+    max-height:250px;
     width:auto;
     height:auto;
 }
-#subcontent h2 {
-    float:left;
+#about_content h2 {
     margin:0;
+    clear:both;
 }
 #about_content {
+    float:left;
     width:500px;
     margin-top:20px;
 }
@@ -97,8 +102,9 @@ a {
     display:block;
 }
 .line_style {
+    float:left;
     display:block;
-    margin:0;
+    margin-bottom:5px;
     width: 500px;
     border-top: 1px solid #1F202D;
     border-bottom: 1px solid #1F202D;
@@ -133,6 +139,7 @@ textarea
 }
 #contact_form {
     width: 500px;
+    margin-top:20px;
 }
 #contact_form label {
     width:200px;
