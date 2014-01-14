@@ -27,11 +27,10 @@ a {
     width:auto;
     height:auto;
 }
-#about_content h2 {
+.about_content h2 {
     margin:0;
-    clear:both;
 }
-#about_content {
+.about_content {
     float:left;
     width:500px;
     margin-top:20px;
