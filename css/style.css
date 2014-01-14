@@ -13,7 +13,6 @@ a {
     max-height:300px;
     width:auto;
     height:auto;
-    background:white;
 }
 .imgright {
     float:right;
@@ -23,13 +22,14 @@ a {
     max-height:300px;
     width:auto;
     height:auto;
-    background:white;
 }
 #subcontent h2 {
     float:left;
+    margin:0;
 }
 #about_content {
     width:500px;
+    margin-top:20px;
 }
 /* Blogg börjar */
 #blog_header {
@@ -70,7 +70,7 @@ a {
     color:red;
 }
 #blog_content {
-    font-size:14px;
+    font-size:16px;
     width:500px;
     margin-top:5px;
     clear:both;
