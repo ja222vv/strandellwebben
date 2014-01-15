@@ -14,10 +14,11 @@ a {
     height:360px;
     width:550px;
     padding:5px;
-    margin-bottom:20px;
-    background: #ffc;
+    margin-bottom:30px;
+    background: #1F202D;
     text-align:center;
     border-radius: 3px;
+    border: 1px solid black;
 }
 .img_slide {
     background-size:contain;
@@ -29,19 +30,14 @@ a {
     height:auto;
     margin-top:10px;
 }
-#arrowleft img, #arrowright img {
+#arrowleft img, #arrowright img, #pause_img img {
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
-    width:60px;
-    height:40px;
-}
-#pause_img img {
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-position:center;
-    width:50px;
-    height:40px;
+    max-width:60px;
+    max-height:40px;
+    width:auto;
+    height:auto;
 }
 /* Sidan om oss */
 .imgleft {
@@ -53,6 +49,7 @@ a {
     max-height:250px;
     width:auto;
     height:auto;
+    background:white;
 }
 .imgright {
     float:right;
@@ -172,7 +169,8 @@ legend {
 }
 textarea
 {
-   resize: none;
+    width: 260px;
+    resize: none;
 }
 #contact_form {
     width: 500px;
