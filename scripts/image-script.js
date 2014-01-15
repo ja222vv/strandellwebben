@@ -16,7 +16,7 @@ var ImgArray = ["../Images/Car_XC60.jpg","../Images/Couple.jpg", "../Images/somm
     this.classList.toggle("paused");
     
     if(this.className === "paused"){
-    clearInterval(MyInterval);
+        clearInterval(MyInterval);
     }
     else{
         MyInterval = setInterval(ChangeImage, 5000);
@@ -25,6 +25,7 @@ var ImgArray = ["../Images/Car_XC60.jpg","../Images/Couple.jpg", "../Images/somm
     //Bläddrar framåt
     function NextImage() {
         clearInterval(MyInterval);
+        document.querySelector("#pause_img").classList.add("paused");
         document.getElementById('slider').src = ImgArray[Counter];
         if (Counter === ImgArray.length-1) {
             Counter = 0;
@@ -36,6 +37,7 @@ var ImgArray = ["../Images/Car_XC60.jpg","../Images/Couple.jpg", "../Images/somm
     //Bläddrar bakåt
     function LastImage() {
         clearInterval(MyInterval);
+        document.querySelector("#pause_img").classList.add("paused");
         document.getElementById('slider').src = ImgArray[Counter];
         if (Counter === 0 ) {
                 Counter = ImgArray.length-1;
