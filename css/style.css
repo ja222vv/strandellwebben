@@ -29,12 +29,19 @@ a {
     height:auto;
     margin-top:10px;
 }
-#arrowleft img, #arrowright img{
+#arrowleft img, #arrowright img {
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    width:60px;
+    height:40px;
+}
+#pause_img img {
     background-size:contain;
     background-repeat:no-repeat;
     background-position:center;
     width:50px;
-    height:30px;
+    height:40px;
 }
 /* Sidan om oss */
 .imgleft {

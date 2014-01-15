@@ -11,6 +11,17 @@ var ImgArray = ["../Images/Car_XC60.jpg","../Images/Couple.jpg", "../Images/somm
     function StopImages() {
         clearInterval(MyInterval);
     }
+    //Möjliggör funktionen att pausa och starta bildspelet med samma knapp
+    document.querySelector("#pause_img").onclick = function(){
+    this.classList.toggle("paused");
+    
+    if(this.className === "paused"){
+    clearInterval(MyInterval);
+    }
+    else{
+        MyInterval = setInterval(ChangeImage, 5000);
+    }
+};
     //Bläddrar framåt
     function NextImage() {
         clearInterval(MyInterval);
