@@ -9,6 +9,34 @@ html {
 a {
     text-decoration:none;
 }
+.img_slider {
+    float:left;
+    height:360px;
+    width:550px;
+    padding:5px;
+    margin-bottom:20px;
+    background: #ffc;
+    text-align:center;
+    border-radius: 3px;
+}
+.img_slide {
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    max-width:450px;
+    max-height:300px;
+    width:auto;
+    height:auto;
+    margin-top:10px;
+}
+#arrowleft img, #arrowright img{
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    width:50px;
+    height:30px;
+}
+/* Sidan om oss */
 .imgleft {
     float:left;
     padding:2px;
@@ -37,6 +65,7 @@ a {
     width:500px;
     margin-top:20px;
 }
+/*Sidan om oss*/
 /* Blogg börjar */
 #blog_header {
     position:relative;
@@ -259,23 +288,3 @@ a:hover {
     background: #1F202D;
 }
 /* Layout slutar */
-.img_slider {
-    float:left;
-    height:360px;
-    width:550px;
-    padding:5px;
-    margin-bottom:20px;
-    background: #ffc;
-    text-align:center;
-    border-radius: 3px;
-}
-.img_slide {
-    background-size:contain;
-    background-repeat:no-repeat;
-    background-position:center;
-    max-width:450px;
-    max-height:300px;
-    width:auto;
-    height:auto;
-    margin-top:10px;
-}
