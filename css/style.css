@@ -2,6 +2,7 @@
     font-family: Chaparral Pro;
     src: url('ChaparralPro-Regular.otf');
 }
+@media screen {
 /* Används för att sidan inte ska hoppa vid sidbyten om sidorna är olika långa. */
 html {
 	overflow-y: scroll; 
@@ -293,3 +294,42 @@ a:hover {
     background: #1F202D;
 }
 /* Layout slutar */
+}
+@media print {
+#content a[href^=http]:after, #content a[href^=https]:after {
+    content: " (" attr(href) ") ";
+}
+a {
+    color: blue;
+}
+hr {
+    display:none;
+}
+#menu, #footer {
+    display:none;
+}
+div > img:first-child{
+    display:none;
+}
+.imgleft {
+    float:left;
+    padding:2px;
+    margin-right:5px;
+    margin-bottom:5px;
+    max-width:250px;
+    max-height:250px;
+    width:auto;
+    height:auto;
+    background:white;
+}
+.imgright {
+    float:right;
+    padding:2px;
+    margin-left:5px;
+    margin-bottom:5px;
+    max-width:250px;
+    max-height:250px;
+    width:auto;
+    height:auto;
+}
+}
