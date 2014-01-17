@@ -13,10 +13,16 @@ html {
 }
 a {
     text-decoration:none;
+    color: #35368C;
+}
+a:visited {
+    color: #1F202D;
 }
 body {
+    background-color:#56728E;
     background: linear-gradient(130deg,#506d8d 0%, #9ca898 50%,#506d8d 100%) no-repeat center center fixed; 
     background-size: cover;
+    min-height:100%;
 }
 /* Bildspelet börjar*/
 .img_slider {
@@ -140,8 +146,7 @@ body {
     font-weight:bold;
     line-height:20px;
     margin-top:10px;
-    margin-left:5px;
-    float:left;
+    margin-left:3px;
 }
 .blog_date p span {
     font-size:18px;
@@ -255,9 +260,11 @@ a:hover {
 }
 #text_header {
     margin-top: 110px;
-    margin-right: 158px;
-    width: 470px;
-    float:right;
+    margin-left: 70px;
+    max-width: 470px;
+    max-height: 90px;
+    width:auto;
+    height:auto;
 }
 /* Bilder för header - slutar */
 /* Layout börjar */
@@ -275,6 +282,7 @@ a:hover {
     background-image: url("pics/Border.png");
     background-size:contain;
     background-repeat:no-repeat;
+    background-position:top;
 }
 #content {
     width: 800px;
@@ -285,7 +293,7 @@ a:hover {
     border-bottom:1px solid #000000;
 }
 #menu {
-    font-family: "Chaparral Pro";
+    font-family: "Chaparral Pro","Palatino Linotype";
     font-size: 18px;
     color: #0A072A;
     width: 190px;
@@ -294,7 +302,7 @@ a:hover {
     text-align:center;
 }
 #subcontent {
-    font-family: "Chaparral Pro";
+    font-family: "Chaparral Pro","Palatino Linotype";
     width: 600px;
     background: #AFAD86;
     min-height:250px;
@@ -304,7 +312,7 @@ a:hover {
     margin-top: 5px;
     padding: 5px;
     height: 50px;
-    font-family: "Chaparral Pro";
+    font-family: "Chaparral Pro","Palatino Linotype";
     font-size: 14px;
     text-align: center;
     clear: both;

@@ -58,3 +58,5 @@ var ImgArray = ["../Images/Car_XC60.jpg","../Images/Couple.jpg", "../Images/somm
         console.log("Counter: " +Counter);
         document.getElementById('slider').src = ImgArray[Counter];
     }
+    
+window.onload = ChangeImage();
