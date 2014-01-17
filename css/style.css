@@ -158,10 +158,10 @@ body {
     clear:both;
     background:#1F202D;
 }
-#blog_author {
+.author {
     font-size: 14px;
 }
-#blog_author p span {
+.author p span {
     font-style: italic;
 }
 /*Blogg slutar */

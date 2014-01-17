@@ -9,7 +9,6 @@ var ImgArray = ["../Images/Car_XC60.jpg","../Images/Couple.jpg", "../Images/somm
     
     //Funktion för att byta bilder
     function ChangeImage() {
-    document.getElementById('slider').src = ImgArray[Counter];
     //Så länge räknaren är mindre än bildarrayens längd, fortsätt...
     if (Counter < ImgArray.length-1) {
         Counter++;
@@ -18,6 +17,7 @@ var ImgArray = ["../Images/Car_XC60.jpg","../Images/Couple.jpg", "../Images/somm
     else {
         Counter = 0;
     }
+    document.getElementById('slider').src = ImgArray[Counter];
     }
     //Pausar bildspelet, kan pausa och starta med samma knapp
     function StopImages() {
@@ -35,24 +35,26 @@ var ImgArray = ["../Images/Car_XC60.jpg","../Images/Couple.jpg", "../Images/somm
         clearInterval(MyInterval);
         //Sätt klassen paused för att pause och play ska fungera med samma knapp
         document.querySelector("#pause_img").classList.add("paused");
-        document.getElementById('slider').src = ImgArray[Counter];
         if (Counter === ImgArray.length-1) {
             Counter = 0;
         }
         else {
             Counter++;
         }
+        console.log("Counter: " +Counter);
+        document.getElementById('slider').src = ImgArray[Counter];
     }
     //Bläddrar bakåt
     function LastImage() {
         clearInterval(MyInterval);
         //Sätt klassen paused för att pause och play ska fungera med samma knapp
         document.querySelector("#pause_img").classList.add("paused");
-        document.getElementById('slider').src = ImgArray[Counter];
         if (Counter === 0 ) {
                 Counter = ImgArray.length-1;
         }
         else {
             Counter--;
         }
+        console.log("Counter: " +Counter);
+        document.getElementById('slider').src = ImgArray[Counter];
     }
