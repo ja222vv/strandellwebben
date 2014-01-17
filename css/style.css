@@ -68,6 +68,17 @@ body {
     height:auto;
     background:white;
 }
+.imgleftsmall {
+    float:left;
+    padding:2px;
+    margin-right:5px;
+    margin-bottom:5px;
+    max-width:150px;
+    max-height:150px;
+    width:auto;
+    height:auto;
+    background:white;
+}
 .imgright {
     float:right;
     padding:2px;
@@ -77,6 +88,17 @@ body {
     max-height:250px;
     width:auto;
     height:auto;
+}
+.imgrightsmall {
+    float:right;
+    padding:2px;
+    margin-right:5px;
+    margin-bottom:5px;
+    max-width:150px;
+    max-height:150px;
+    width:auto;
+    height:auto;
+    background:white;
 }
 .about_content h2, .travel_content h2 {
     margin:0;
