@@ -110,11 +110,12 @@ body {
 }
 /*Sidan om oss*/
 /* Blogg börjar */
-#blog_header {
+.blog_header {
     position:relative;
     margin-top: 20px;
     width:500px;
     height:55px;
+    clear:both;
 }
 .meta {
     position:absolute; left: 50px; top: 35px;
@@ -136,18 +137,18 @@ body {
     float:left;
     margin-top:35px;
 }
-#blog_header h2 {
+.blog_header h2 {
     margin-left:50px;
     margin-top:5px;
     float:left;
 }
-#blog_header a {
+.blog_header a {
     color:black;
 }
-#blog_header a:hover {
+.blog_header a:hover {
     color:red;
 }
-#blog_content {
+.blog_content {
     font-size:16px;
     width:500px;
     margin-top:5px;
@@ -187,6 +188,7 @@ body {
 }
 .author {
     font-size: 14px;
+    margin-bottom:15px;
 }
 .author p span {
     font-style: italic;
