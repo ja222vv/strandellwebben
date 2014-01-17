@@ -1,12 +1,9 @@
-/*  background: #AFAD86; till övriga fält
-    testfärg: #CFCCB7
-    background: #E2DEAD; Till header*/
-
 @font-face {
     font-family: Chaparral Pro;
     src: url('ChaparralPro-Regular.otf');
 }
 @media screen {
+    
 /* Används för att sidan inte ska hoppa vid sidbyten om sidorna är olika långa. */
 html {
 	overflow-y: scroll; 
